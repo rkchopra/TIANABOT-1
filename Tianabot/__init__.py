@@ -9,6 +9,16 @@ from pyrogram import Client, errors
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 from telethon import TelegramClient
 
+from Tianabot.config import get_bool_key, get_int_key, get_list_key, get_str_key
+from Tianabot.utils.logger import log
+from Tianabot.versions import DAISY_VERSION
+
+log.info("----------------------")
+log.info("|      TIANA BOT     |")
+log.info("----------------------")
+log.info("Version: " + TIANA_VERSION)
+
+
 StartTime = time.time()
 
 # enable logging
