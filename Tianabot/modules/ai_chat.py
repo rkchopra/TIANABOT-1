@@ -11,11 +11,11 @@ import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
 
-from DaisyX import BOT_ID
-from DaisyX.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
-from DaisyX.function.inlinehelper import arq
-from DaisyX.function.pluginhelpers import admins_only, edit_or_reply
-from DaisyX.services.pyrogram import pbot as daisyx
+from Tianabot import BOT_ID
+from Tianabot.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
+from Tianabot.function.inlinehelper import arq
+from Tianabot.function.pluginhelpers import admins_only, edit_or_reply
+from Tianabot.services.pyrogram import pbot as daisyx
 
 translator = google_translator()
 
