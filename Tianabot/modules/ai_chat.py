@@ -12,7 +12,7 @@ from googletrans import Translator as google_translator
 from pyrogram import filters
 
 from Tianabot import BOT_ID
-from Tianabot.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
+from Tianabot.helper_extra.aichat import add_chat, get_session, remove_chat
 from Tianabot.function.inlinehelper import arq
 from Tianabot.function.pluginhelpers import admins_only, edit_or_reply
 from Tianabot.services.pyrogram import pbot as daisyx
