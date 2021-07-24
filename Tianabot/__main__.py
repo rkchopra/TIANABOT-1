@@ -80,18 +80,18 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = f"""Hello, My Name is {BOT_NAME}
+PM_START_TEXT = f"""Hello, My Name is 丹n𝔧สlᎥ  𝚁𝚘𝚋𝚘𝚝}
 
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Probot was Created by [ℙℝ𝕀ℕℂ𝔼](https://t.me/devilsdad_prince)
+This Probot was Created by [丹n𝔧สlᎥ](https://t.me/Not_a_Different)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 ༒ 𝙏𝙄𝘼𝙉𝘼 ༒ 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 ༒ 丹n𝔧สlᎥ 𝚁𝚘𝚋𝚘𝚝༒ 𝐓𝐎  your 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/Anjali_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱𝐈𝐍𝐅𝐎", callback_data="masha_"),
@@ -99,24 +99,24 @@ buttons = [
     ],
    [
         InlineKeyboardButton(
-            text="🎵 𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏 🎧", url=f"http://t.me/{CHAT_GROUP}")
+            text="🎵 𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏 🎧", url=f"http://t.me/LOVE_POISION_SUPPORT")
    ],
    [
         InlineKeyboardButton(
-            text="✨ 𝐎𝐖𝐍𝐄𝐑 ✨", url=f"http://t.me/{OWNER_USERNAME}"),
+            text="✨ 𝐎𝐖𝐍𝐄𝐑 ✨", url=f"http://t.me/Not_a_Different"),
         InlineKeyboardButton(
-            text="⚜️ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚜️", url=f"https://t.me/{BOT_CHANNEL}"),
+            text="⚜️ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚜️", url=f"https://t.me/LOVE_POISION"),
     ],
     [  
-        InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 👥", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 👥", url=f"https://t.me/LOVE_POISION_SUPPORT"),
     ], 
     
 ]
 
-TIANA_IMG = f"{ALIVE_PIC}"
+TIANA_IMG = f"https://telegra.ph/file/7b59050e6fd08cba3add6.jpg}"
 
 HELP_STRINGS = f"""
-Hey There! My Name is {BOT_NAME}
+Hey There! My Name is 丹n𝔧สlᎥ  𝚁𝚘𝚋𝚘𝚝}
 
 I'm a Heroine For Fun and help admins to manage their groups! Have a look at the following for an idea of some of the things I can help you with.
 
@@ -379,7 +379,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=f""" ℹ️ I'm {BOT_NAME}, a powerful group management bot built to help you manage your group easily. This Bots Created By PRINCE
+            text=f""" ℹ️ I'm 丹n𝔧สlᎥ  𝚁𝚘𝚋𝚘𝚝}, a powerful group management bot built to help you manage your group easily. This Bots Created By PRINCE
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -387,8 +387,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Tiana's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/prince301102/tiana-2.0).
-                 If you have any question about masha, let us know at [SUPPORT CHAT](https://t.me/{SUPPORT_CHAT}).""",
+                 Here is the (Contact miss ceute )https://t.me/Not_a_Different.
+                 If you have any question about masha, let us know at [SUPPORT CHAT](https://t.me/LOVE_POISION_SUPPORT}).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -414,8 +414,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *TIANA BOT*
-                 \nHere is the [Source Code](https://GitHub.com/prince301102/tiana-2.0) .""",
+            text=""" Hi..🤗 I'm *丹n𝔧สlᎥ  𝚁𝚘𝚋𝚘𝚝 BOT*
+                 \nHere is the [ceute](https://Not_a_Different) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
